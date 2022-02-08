@@ -7,10 +7,10 @@ console.log(hamburgerMenuIcon)
 
 
 hamburgerMenuIcon.addEventListener('click', function () {
-    hamburgerMenuList.style.display= "block";
+    hamburgerMenuList .classList.add("active");
 })
 
 closeIcon.addEventListener('click', function () {
-    hamburgerMenuList.style.visibility= "hidden";
+    hamburgerMenuList .classList.remove("active");
 })
 
